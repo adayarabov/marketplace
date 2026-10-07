@@ -10,11 +10,20 @@
   "plugins": [
     {
       "name": "narrator",
-      "source": "./plugins/narrator",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/adayarabov/narrator.git",
+        "path": "plugins/narrator"
+      },
       "description": "Claude talks to you while it works: spoken narration in a browser page and a voice side chat that does not interrupt the task",
-      "version": "0.3.0",
+      "version": "0.4.0",
       "category": "productivity",
-      "keywords": ["voice", "tts", "narration", "side-chat"]
+      "keywords": [
+        "voice",
+        "tts",
+        "narration",
+        "side-chat"
+      ]
     },
     {
       "name": "docker-panel",
@@ -26,7 +35,11 @@
       "description": "Docker Compose status band above the Claude Code prompt: service health, ports, crash and stale-config alerts, one-press actions",
       "version": "0.2.3",
       "category": "development",
-      "keywords": ["docker", "docker-compose", "devops"]
+      "keywords": [
+        "docker",
+        "docker-compose",
+        "devops"
+      ]
     }
   ]
 }

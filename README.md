@@ -1,10 +1,10 @@
 # adayarabov's Claude Code mods
 
-A [Claude Code](https://claude.com/claude-code) plugin marketplace.
+A [Claude Code](https://claude.com/claude-code) plugin marketplace. It only lists the mods; each one lives in its own repository.
 
 | Mod | What it does |
 |---|---|
-| [narrator](plugins/narrator) | Claude talks to you while it works: spoken narration in a browser page, and a voice side chat that answers questions and passes instructions without interrupting the task |
+| [narrator](https://github.com/adayarabov/narrator) | Claude talks to you while it works: spoken narration in a browser page, and a voice side chat that answers questions and passes instructions without interrupting the task |
 | [docker-panel](https://github.com/adayarabov/docker-panel) | Docker Compose status band above the prompt: service health, ports, crash and stale-config alerts, one-press actions |
 
 ## Install
