@@ -16,7 +16,7 @@
         "path": "plugins/narrator"
       },
       "description": "Claude talks to you while it works: spoken narration in a browser page and a voice side chat that does not interrupt the task",
-      "version": "0.5.0",
+      "version": "0.5.1",
       "category": "productivity",
       "keywords": [
         "voice",
