@@ -1,0 +1,32 @@
+{
+  "name": "adayarabov",
+  "owner": {
+    "name": "adayarabov",
+    "url": "https://github.com/adayarabov"
+  },
+  "metadata": {
+    "description": "Claude Code mods by adayarabov"
+  },
+  "plugins": [
+    {
+      "name": "narrator",
+      "source": "./plugins/narrator",
+      "description": "Claude talks to you while it works: spoken narration in a browser page and a voice side chat that does not interrupt the task",
+      "version": "0.3.0",
+      "category": "productivity",
+      "keywords": ["voice", "tts", "narration", "side-chat"]
+    },
+    {
+      "name": "docker-panel",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/adayarabov/docker-panel.git",
+        "path": "plugins/docker-panel"
+      },
+      "description": "Docker Compose status band above the Claude Code prompt: service health, ports, crash and stale-config alerts, one-press actions",
+      "version": "0.2.3",
+      "category": "development",
+      "keywords": ["docker", "docker-compose", "devops"]
+    }
+  ]
+}
